@@ -9,7 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [osu-lazer, ffmpeg-intel-full-git, linux-nitrous, yuzu-early-access]
+        repos: [osu-lazer, ffmpeg-intel-full-git, linux-nitrous, yuzu-early-access, darling-git]
 
       fail-fast: false
       
